@@ -1,0 +1,151 @@
+.home {
+    height: 100vh;
+    background-image: url(../imgs/80\ -\ Copy.jpg);
+    background-size: cover;
+}
+.navbar li
+{
+    padding: 15px;
+    transition: all 0.5sec;
+    font-weight: bolder;
+
+}
+
+.nav-item ::after
+{
+content: '';
+display: block;
+width: 0;
+height: 3px;
+background: black;
+transition: width .3s;
+}
+
+.nav-item :hover::after
+{
+width: 100%;
+transition: width .3s;
+}
+
+#cooking
+{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+#cooking h1
+{
+    font-size: 6rem;
+    color: #eb3f28;
+    font-weight: bolder;
+}
+#cooking h2
+{
+    font-size: 6rem;
+    font-weight: normal;
+}
+#cooking p
+{
+    font-size: 25px;
+}
+.btn {
+    padding: 10px 20px;
+    color:white ;
+    background-color:#eb3f28;
+    transition: all 0.5s;
+}
+.btn:hover{
+
+    background-color: black;
+    color: white;
+}
+.photo img 
+{
+    width: 70%;
+    position: absolute;
+    left: 30%;
+    bottom: 25%;;
+}
+.wd
+{
+    width: 630px;
+}
+
+
+
+#order
+{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+#order h1
+{
+    font-size: 6rem;
+    color:#B28B00;
+    font-weight: bolder;
+}
+.boy img 
+{
+    width: 100%;
+    position: absolute;
+    left: 0%;
+    bottom: 20%;
+}
+.line-mf {
+    width: 100px;
+    height: 20px;
+    background-color:#B28B00;
+    margin: auto;
+}
+
+#Meals {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+
+#contact 
+{
+    height: 50vh;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    background-image: url(../imgs/bg22.jpg);
+    background-size:cover;
+}
+.contact-content 
+{
+    justify-content: center;
+}
+.doc-1 
+{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 250px;
+    height: 350px;
+    background-color:white;
+}
+.doc-2
+{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 250px;
+    height: 350px;
+    background-color: #F2C438;
+}
+.doc-3
+{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 250px;
+    height: 350px;
+    background-color:white;
+}
+#online 
+{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    
+}
+
